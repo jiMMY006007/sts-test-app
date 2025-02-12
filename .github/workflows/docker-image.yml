@@ -61,7 +61,7 @@ jobs:
         name: changing the deployment of git repo
         with:
           repository: 'jiMMY006007/sts-test-manifest'
-          #token: ${{ secrets.GIT_PASSWORD }}
+          token: ${{ secrets.GIT_PASSWORD }}
       - name: modify the image
         run: |
           git config user.email ag8577634@gmail.com
